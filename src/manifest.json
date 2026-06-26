@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Sender auto update",
     "description": "Extension updates from field to original receipient when replying to email.",
-    "version": "1.0",
+    "version": "1.1",
     "author": "MarioZG",
     "homepage_url": "https://github.com/MarioZG/thunderbird-sendfrom",
     "browser_specific_settings": {
@@ -12,8 +12,9 @@
         }
     },
     "permissions": [
-        "compose","messagesRead"
+        "compose","messagesRead","accountsRead","storage"
     ],
+    "options_page": "options.html",
     "background": {
         "scripts": [
             "background.js"
