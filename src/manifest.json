@@ -7,6 +7,7 @@
     "homepage_url": "https://github.com/MarioZG/thunderbird-sendfrom",
     "browser_specific_settings": {
         "gecko": {
+            "id": "@thunderbird-sendfrom",
             "strict_min_version": "128.0"
         }
     },
