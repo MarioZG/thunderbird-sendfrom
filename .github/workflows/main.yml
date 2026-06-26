@@ -1,0 +1,13 @@
+on:
+  push:
+    branches:
+    - main
+jobs:
+  build:
+    name: create addon package zip file
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/upload-artifact@v7
+        with:
+          name: thunderbird-sendfrom
+          path: src/
