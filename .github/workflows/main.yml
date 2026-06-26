@@ -7,6 +7,7 @@ jobs:
     name: create addon package zip file
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v7
       - uses: actions/upload-artifact@v7
         with:
           name: thunderbird-sendfrom
